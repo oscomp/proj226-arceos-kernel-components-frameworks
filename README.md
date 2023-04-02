@@ -23,7 +23,7 @@
 
 ### 项目导师
 
-- 贾越凯 github id：equation314
+- 贾越凯 github id：equation314 email: jyk19ATmails.tsinghua.edu.cn
 - 陈渝 github id: chyyuu   email：yuchenATtsinghua.edu.cn
 
 

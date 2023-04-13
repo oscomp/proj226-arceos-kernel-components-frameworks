@@ -56,6 +56,7 @@
 
 - [选题内容1](https://learningos.github.io/os-lectures/oslabs/biglabs.html#15)
 - [选题内容2](https://learningos.github.io/os-lectures/oslabs/biglabs.html#16)
+- [选题内容3]：支持LoogArch（龙芯）架构和相关的外设，能在QEMU for LoogArch或龙芯开发板上运行，可支持多核。
 
 ## 备注
 

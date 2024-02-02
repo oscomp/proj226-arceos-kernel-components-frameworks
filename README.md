@@ -23,10 +23,9 @@
 
 ### 项目导师
 
+- 陈渝 github id: chyyuu   email：yuchenATtsinghua.edu.cn
 - 贾越凯 github id：equation314 email: jyk19ATmails.tsinghua.edu.cn
 - 石磊 github id: shilei-massclouds email: shi_leiATmassclouds.com
-- 陈渝 github id: chyyuu   email：yuchenATtsinghua.edu.cn
-
 
 ### 难度
 

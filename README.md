@@ -43,7 +43,7 @@
 ### 参考资源
 
 #### kernel&hypervisor
-这是完整的OS&Hypervisor，要求参赛者设计的kernel components 能够支持如下的OS&Hypervisor
+这是可供参考的OS&Hypervisor，要求参赛者设计的kernel components 能够支持部分（不一定全部）的如下OS&Hypervisor
 - [unikernel形态的组件化ArceOS](https://github.com/rcore-os/arceos)
 - [基于ArceOS的宏内核形态的组件化Starry kernel](https://github.com/Arceos-monolithic/Starry)
 - [宏内核形态的组件化Byeos kernel]( https://www.github.com/yfblock/Byteos)
@@ -77,7 +77,7 @@
 ### 注意：下面的内容是建议内容，不要求必须全部完成。选择本项目的同学也可与导师联系，提出自己的新想法，如导师认可，可加入预期目标
 如果是与OS无关的kernel component，要求能独立形成仓库，能独立测试和与OS合并测试。
 
-评价项目完成情况的一个重要指标是被其他仓库的引用数量和fork数量、Star数量，以及使用和设计实现文档等。virtio-drivers crate的引用数量和fork数量、Star数量是一个好评价的参考。
+评价项目完成情况的一个重要指标是被其他仓库的引用数量（代表有proj用了这个crate）和fork数量、Star数量，以及使用和设计实现文档等。virtio-drivers crate的引用数量和fork数量、Star数量是一个好评价的参考。
 
 - 改进已有的与OS无关或相关的kernel component
 - 增加新的与OS无关或相关的kernel component

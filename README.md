@@ -1,4 +1,4 @@
-# proj226-arceos
+# proj226-arceos-kernel-components
 # 灵活组合的操作系统模块和框架--ArceOS
 - [想法来源：基于泛型独立组件构建各种领域OS](https://github.com/chyyuu/thoughts/blob/main/tangram-oskits.md)
 - [ArceOS: 组件化操作系统的初步探索](https://learningos.github.io/os-lectures/oslabs/biglabs.html#2)
@@ -10,7 +10,7 @@
 清华大学
 
 ### 项目描述
-基于组件化设计的思路，用Rust语言的丰富语言特征，设计实现不同功能的独立操作系统内核模块和操作系统框架，可形成不同特征/形态/架构的操作系统内核。让领域操作系统易于定制/开发/复用。
+基于组件化设计的思路，用Rust语言的丰富语言特征，设计实现不同功能的独立操作系统内核模块和操作系统框架，可形成不同特征/形态/架构的操作系统内核，独立操作系统内核模块可支持不同的操作系统内核。让领域操作系统易于定制/开发/复用。
 
 ### 所属赛道
 2024全国大学生操作系统比赛的“OS功能挑战”赛道
@@ -26,6 +26,7 @@
 - 陈渝 github id: chyyuu   email：yuchenATtsinghua.edu.cn
 - 贾越凯 github id：equation314 email: jyk19ATmails.tsinghua.edu.cn
 - 石磊 github id: shilei-massclouds email: shi_leiATmassclouds.com
+- 杨金博 github id: yfblock email: 321353225@qq.com
 
 ### 难度
 
@@ -41,8 +42,8 @@
 
 ### 文档
 
-- [ArceOS源码仓库](https://github.com/rcore-os/arceos)
-
+- [unikernel形态的组件化ArceOS](https://github.com/rcore-os/arceos)
+- [基于ArceOS的宏内核形态的组件化Starry kernel](https://github.com/Arceos-monolithic/Starry)
 ### License
 
 - GPL-3.0 

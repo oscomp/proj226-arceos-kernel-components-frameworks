@@ -1,5 +1,5 @@
-# proj226-arceos-kernel-components
-# 灵活组合的操作系统模块和框架--ArceOS
+# proj226-arceos-kernel-components-frameworks
+# 灵活组合的操作系统模块和框架--ArceOS-kernel-components-frameworks
 - [想法来源：基于泛型独立组件构建各种领域OS](https://github.com/chyyuu/thoughts/blob/main/tangram-oskits.md)
 - [ArceOS: 组件化操作系统的初步探索](https://learningos.github.io/os-lectures/oslabs/biglabs.html#2)
 - [ArceOS源码仓库](https://github.com/rcore-os/arceos)
@@ -40,10 +40,30 @@
 
 
 
-### 文档
+### 参考资源
 
+#### kernel&hypervisor
+这是完整的OS&Hypervisor，要求参赛者设计的kernel components 能够支持如下的OS&Hypervisor
 - [unikernel形态的组件化ArceOS](https://github.com/rcore-os/arceos)
 - [基于ArceOS的宏内核形态的组件化Starry kernel](https://github.com/Arceos-monolithic/Starry)
+- [宏内核形态的组件化Byeos kernel]( https://www.github.com/yfblock/Byteos)
+- [基于ArceOS的微内核形态的组件化os kernel](https://github.com/jhdjames37/arceos)
+- [基于ArceOS的Hypervisor形态的组件化hypervisor](https://github.com/arceos-hypervisor/hypercraft)
+
+#### 参考：与OS无关的kernel components
+这是部分与OS无关的kernel components，不一定特别完善，供参考，也可进一步改进作为比赛提交成果/
+
+- [基于C的ext4 crate](https://github.com/rcore-os/lwext4_rust)
+- [基于Rust的ext4 crate](https://github.com/yuoo655/ext4_rs)
+- [Rust-based tcpip stack: smoltcp](https://github.com/rcore-os/smoltcp)
+- [C-based tcpip stack:lwip](https://github.com/Centaurus99/arceos-lwip)
+- [virtio drivers](https://github.com/rcore-os/virtio-drivers)
+- [e1000 NIC driver](https://github.com/rcore-os/e1000-driver)
+- [Cadence Macb ethernet driver on Sifive fu740 board](https://github.com/rcore-os/cadence-macb-driver)
+- [nvme driver](https://github.com/rcore-os/nvme_driver)
+- [isomorphic_drivers](https://github.com/rcore-os/isomorphic_drivers)
+- [os scheduler(https://github.com/131131yhx/arceos)
+
 ### License
 
 - GPL-3.0 
@@ -54,10 +74,17 @@
 ## 预期目标
 
 ### 注意：下面的内容是建议内容，不要求必须全部完成。选择本项目的同学也可与导师联系，提出自己的新想法，如导师认可，可加入预期目标
+如果是与OS无关的kernel component，要求能独立形成仓库，能独立测试和与OS合并测试。
+评价的一个重要指标是被其他仓库的引用数量和fork数量、Star数量。virtio-drivers crates是一个好的参考。
 
-- [选题内容1](https://learningos.github.io/os-lectures/oslabs/biglabs.html#15)
-- [选题内容2](https://learningos.github.io/os-lectures/oslabs/biglabs.html#16)
-- [选题内容3]：支持LoogArch（龙芯）架构和相关的外设，能在QEMU for LoogArch或龙芯开发板上运行，可支持多核。
+- 改进已有的与OS无关或相关的kernel component
+- 增加新的与OS无关或相关的kernel component
+- 改进或增加OS内核框架，形成新的OS
+- 一些kernel components具体内容
+  - 算法：调度、内存分配、...
+  - 驱动：物理网卡、SD 卡、virtio GPU、各种外设驱动...
+  - 文件系统：各种嵌入式文件系统
+  - 硬件相关层：支持x64/ARM/RISC-V/LoogArch（龙芯）架构的HAL
 
 ## 备注
 

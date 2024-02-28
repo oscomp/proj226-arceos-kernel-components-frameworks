@@ -51,7 +51,7 @@
 - [基于ArceOS的Hypervisor形态的组件化hypervisor](https://github.com/arceos-hypervisor/hypercraft)
 
 #### 参考：与OS无关的kernel components
-这是部分与OS无关的kernel components，有一些不一定特别完善，供参考，也可进一步改进作为比赛提交成果/
+这是部分与OS无关的kernel components，有一些不一定特别完善，供参考，也可进一步改进作为比赛提交成果
 
 - [基于C的ext4 crate](https://github.com/rcore-os/lwext4_rust)
 - [基于Rust的ext4 crate](https://github.com/yuoo655/ext4_rs)

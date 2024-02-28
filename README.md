@@ -76,7 +76,8 @@
 
 ### 注意：下面的内容是建议内容，不要求必须全部完成。选择本项目的同学也可与导师联系，提出自己的新想法，如导师认可，可加入预期目标
 如果是与OS无关的kernel component，要求能独立形成仓库，能独立测试和与OS合并测试。
-评价的一个重要指标是被其他仓库的引用数量和fork数量、Star数量。virtio-drivers crates是一个好的参考。
+
+评价项目完成情况的一个重要指标是被其他仓库的引用数量和fork数量、Star数量，以及使用和设计实现文档等。virtio-drivers crate的引用数量和fork数量、Star数量是一个好评价的参考。
 
 - 改进已有的与OS无关或相关的kernel component
 - 增加新的与OS无关或相关的kernel component

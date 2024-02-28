@@ -62,7 +62,7 @@
 - [Cadence Macb ethernet driver on Sifive fu740 board](https://github.com/rcore-os/cadence-macb-driver)
 - [nvme driver](https://github.com/rcore-os/nvme_driver)
 - [isomorphic_drivers](https://github.com/rcore-os/isomorphic_drivers)
-- [os scheduler(https://github.com/131131yhx/arceos)
+- [os scheduler](https://github.com/131131yhx/arceos)
 
 ### License
 

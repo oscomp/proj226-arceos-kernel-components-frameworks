@@ -45,7 +45,7 @@
 #### kernel&hypervisor
 这是可供参考的OS&Hypervisor，要求参赛者设计的kernel components 能够支持部分（不一定全部）的如下OS&Hypervisor
 - [unikernel形态的组件化ArceOS](https://github.com/rcore-os/arceos)
-   - [可运行在RISC-V星光二代开发板三的ArceOS](https://github.com/yuoo655/arceos_net/tree/starfive2)
+   - [可运行在RISC-V星光二代开发板上的ArceOS](https://github.com/yuoo655/arceos_net/tree/starfive2)
 - [基于ArceOS的宏内核形态的组件化Starry kernel](https://github.com/Arceos-monolithic/Starry)
 - [宏内核形态的组件化Byeos kernel]( https://www.github.com/yfblock/Byteos)
 - [基于ArceOS的微内核形态的组件化os kernel](https://github.com/jhdjames37/arceos)

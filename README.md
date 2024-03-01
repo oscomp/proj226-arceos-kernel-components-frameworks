@@ -44,11 +44,13 @@
 
 #### kernel&hypervisor
 这是可供参考的OS&Hypervisor，要求参赛者设计的kernel components 能够支持部分（不一定全部）的如下OS&Hypervisor
-- [unikernel形态的组件化ArceOS](https://github.com/rcore-os/arceos)
+- [unikernel形态的组件化内核ArceOS](https://github.com/rcore-os/arceos)
    - [可运行在RISC-V星光二代开发板上的ArceOS](https://github.com/yuoo655/arceos_net/tree/starfive2)
-- [基于ArceOS的宏内核形态的组件化Starry kernel](https://github.com/Arceos-monolithic/Starry)
-- [宏内核形态的组件化Byeos kernel]( https://www.github.com/yfblock/Byteos)
-- [基于ArceOS的微内核形态的组件化os kernel](https://github.com/jhdjames37/arceos)
+- [基于ArceOS的宏内核形态的组件化内核（支持RISC-V/x64/ARM/LoongArch）Starry kernel](https://github.com/Arceos-monolithic/Starry)
+- [宏内核形态的组件化内核Byeos kernel 2023OS比赛一等奖]( https://www.github.com/yfblock/Byteos) 
+- [宏内核形态的组件化内核Alien（支持RISC-V星光二代开发板） 2023OS比赛一等奖](https://github.com/Godones/Alien)
+- [宏内核形态的组件化内核UMI (支持RISC-V华山派开发板) 2023OS比赛特等奖](https://github.com/js2xxx/umi)
+- [基于ArceOS的微内核形态的组件化内核os kernel](https://github.com/jhdjames37/arceos)
 - [基于ArceOS的Hypervisor形态的组件化hypervisor](https://github.com/arceos-hypervisor/hypercraft)
 
 #### 参考：与OS无关的kernel components
